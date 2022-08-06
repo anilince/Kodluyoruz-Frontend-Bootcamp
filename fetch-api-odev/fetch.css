@@ -1,0 +1,42 @@
+body {
+    background-color: gainsboro;
+}
+
+.header {
+  color: brown;
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.search, .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    width: 250px;
+    height: 24px;
+    border-radius: 4px;
+}
+
+.photos {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.post {
+  border: 3px solid maroon;
+  padding: 12px;
+  border-radius: 16px 0px;
+  width: 150px;
+  height: 300px;
+}
+
+.post > h3 {
+  color: maroon;
+  border-bottom: 2px solid #333;
+  padding-bottom: 4px;
+}
