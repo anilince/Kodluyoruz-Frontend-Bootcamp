@@ -1,0 +1,106 @@
+body {
+  background-color:gray;
+}
+
+.loginDiv {
+  width: 50%;
+  padding-left: 500px;
+}
+
+.loginForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 100px;
+  margin-top: 220px;
+  background-color:rgb(241, 184, 37);
+}
+
+.label {
+  padding-right: 15px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color:navy;
+}
+
+.input {
+  width: 280px;
+  height: 34px;
+  margin-bottom: 15px;
+  border: 3px solid #ccc;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.button {
+  width: 70px;
+  height: 30px;
+  margin-top: 10px;
+  border: 3px solid #ccc;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 40%;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 3px solid #ccc;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.search:focus {
+  border: 3px solid black;
+}
+
+.deleteButton {
+  border: none;
+  background-color: transparent;
+}
+
+.customer {
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  background-color: cadetblue;
+  color: antiquewhite;
+}
+
+.customer td, .customer th {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  padding: 10px;
+}
+
+.customer td {
+  color:midnightblue;
+}
+
+.customer th {
+  background-color:rgb(241, 184, 37);
+  color:navy;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.select {
+  width: 100px;
+  height: 26px;
+  margin-bottom: 20px;
+  border: 3px solid #ccc;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
